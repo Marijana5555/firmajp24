@@ -1,5 +1,8 @@
 drop database if exists zupanija;
 create database zupanija;
+
+
+
 use zupanija;
 
 create table zupanija(
