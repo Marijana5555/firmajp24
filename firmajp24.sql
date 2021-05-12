@@ -1,9 +1,11 @@
 drop database if exists zupanija;
 create database zupanija;
-
-
-
 use zupanija;
+
+CREATE TABLE projekt;
+sifra int NOT NULL PRIMARY KEY auto_increment,
+naziv varchar (50) NOT NULL, 
+cijena decimal (18,2)
 
 create table zupanija(
 sifra int not null primary key auto_increment,
